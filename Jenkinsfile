@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         AWS_DEFAULT_REGION = 'ap-south-1'
-        ECR_REPO = 'your-ecr-repo-id.dkr.ecr.ap-south-1.amazonaws.com/java-microservice-user'
+        ECR_REPO = 'your-ecr-repo-id.in.dkr.ecr.ap-south-1.amazonaws.com/java-microservice-user'
         IMAGE_TAG = "latest"
     }
     stages {
