@@ -1,0 +1,8 @@
+replicaCount: 1
+image:
+  repository: your-ecr-repo-id.dkr.ecr.ap-south-1.amazonaws.com/java-microservice-user
+  tag: latest
+  pullPolicy: IfNotPresent
+service:
+  type: ClusterIP
+  port: 8080
